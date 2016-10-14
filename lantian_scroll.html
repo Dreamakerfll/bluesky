@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name = "format-detection" content = "telephone=no">
+    <title>我的蓝天</title>
+    <script>
+        document.onreadystatechange = subSomething; //监听加载状态改变
+
+        function subSomething() {
+            if (document.readyState == "complete" ) //当页面加载完毕移除页面遮罩，移除loading动画-
+            {
+                console.log("加载完毕！");
+            }
+        }
+    </script>
+    <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="lib/jquery.fullpage.min.css" />
+    <script src="lib/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="lib/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.fullpage.min.js"></script>
+    <script src="lib/jquery.animateNumber.min.js"></script>
+    <script src="lib/doubleUtil.js"></script>
+    <script src="js/lantian_scroll.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="css/lantian_scroll.css">
+
+</head>
+<body>
+<div class="contain">
+    <div class="section fp-height-auto">
+        <div class="wapper">
+            <div class="text_contain">
+                <span class="big_blue_text"></span>
+            </div>
+            <div class="paper_contain">
+                <span class="middle_text"></span><p class="small_text">个月</p>
+            </div>
+            <div class="oxygen_contain">
+                <span class="middle_text"></span><p class="small_text">人</p>
+            </div>
+            <div class="tail_gas_contain">
+                <span class="middle_text"></span><p class="small_text">KM</p>
+            </div>
+        </div>
+        <div class="bottom_button">
+            <div class="waveCont">
+                <i class="wave1 wave"></i>
+                <i class="wave2 wave"></i>
+                <i class="wave3 wave"></i>
+            </div>
+            <div class="support"></div>
+            <div class="scribe"></div>
+            <div class="tree5"></div>
+        </div>
+        <div class="show_down_contain" style="display: none;">
+            <div class="show_down"></div>
+        </div>
+    </div>
+    <div class="section fp-height-auto2">
+        <div class="wapper2">
+            <div class="untouch_contain"></div>
+        </div>
+    </div>
+    <div class="section">
+
+        <div class="guize_body">
+            <div class="buy_process_contain">
+                <strong><p>选购竹浆纸，抽iphone7</p></strong>
+                <strong><p>达2000单立即开奖</p></strong>
+                <div class="process_box">
+                    <div class="process"></div>
+                </div>
+                <p class="buy_num">344</p><p class="touch_num">/2000</p>
+                <strong><p class="award_list">查看获奖名单</p></strong>
+            </div>
+            <div class="getAward_bottom_button">
+                <div class="getAward"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="mask">
+    <div class="share"></div>
+</div>
+
+<div class="mask2">
+    <!--<div class="doScribe"></div>-->
+    <img class="doScribe" src="images/scribe_code.png" alt="qrcode">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color: #ECF6FB;
+}
+
+.wapper{
+    z-index: 1;
+    background-image: url("../images/take_part.png");
+    background-size:100%;
+    background-position:top;
+    background-repeat: no-repeat;
+    padding-top:calc((987/640)*100%);
+    position:relative;
+}
+.bottom{
+    z-index: 1;
+    background-image: url(../images/take_part_bottom.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: calc((54/640)*100%);
+    position: relative;
+}
+
+.take_part_now{
+    z-index: 2;
+    background-image: url(../images/take_part_now.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    padding-top: calc((174/174)*30%);
+    position: relative;
+    margin: -35% auto 0 auto;
+}

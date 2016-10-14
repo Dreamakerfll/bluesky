@@ -1,0 +1,81 @@
+*{
+    padding:0px;
+    margin:0px;
+    background-color: #ECF6FB;
+}
+.contain{
+    position:relative;
+}
+.wapper{
+    z-index: 1;
+    background-image: url("../images/support_top.png");
+    background-size:100%;
+    background-position:top;
+    background-repeat: no-repeat;
+    padding-top:calc((771/640)*100%);
+    position:relative;
+}
+
+.middle{
+    z-index: 1;
+    background-image: url(../images/support_middle.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: calc((151/640)*100%);
+    position: relative;
+}
+
+.bottom{
+    z-index: 1;
+    background-image: url(../images/support_bottom.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: calc((118/640)*100%);
+    position: relative;
+}
+
+.nickname_contain{
+    z-index: 2;
+    position: absolute;
+    top: 19%;
+    font-size: 5.8vw;
+    /* right: 55%; */
+    background: rgba(255, 255, 255, 0);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    line-height: 128%;
+}
+
+.nickname_contain strong{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.nickname_contain p{
+    display:inline-block;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.nickname_contain div{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.nickname{
+    background-color: rgba(255, 255, 255, 0);
+    display:inline-block;
+}
+
+.support_now{
+    z-index: 2;
+    background-image: url(../images/take_part_now.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30%;
+    padding-top: calc((174/174)*30%);
+    position: relative;
+    margin: -46% auto 0 auto;
+}
