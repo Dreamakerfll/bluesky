@@ -213,17 +213,17 @@
 }
 
 .share{
-    background-image: url(../images/share.gif);
+    background-image: url(../images/share.png);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    width: 30%;
-    padding-top: calc((272/210)*30%);
+    width: 80%;
+    padding-top: calc((276/244)*80%);
     /* background-color: blue; */
     z-index: 100;
     /* right: 0px; */
-    margin-left: 70%;
-    filter: blur(0px) !important;
+    /* margin-left: 70%; */
+    margin: 30% 10% auto 10%;
 }
 
 .mask2{

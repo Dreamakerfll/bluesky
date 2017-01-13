@@ -1,8 +1,10 @@
 /**
  * Created by 立力 on 2016/9/27.
  */
-$(document).ready(
+/*$(document).ready(
     function() {
+
+
 
         //给每个页签重新计算高度
         //屏幕高度
@@ -38,4 +40,20 @@ $(document).ready(
             }
         );
     }
-);
+
+
+);*/
+$(function(){
+
+    $('.support_now').click(function(){
+
+        console.log(new Date());
+        console.log(new Date('2016-10-20 00:00:00'));
+
+        if(new Date().getTime() < new Date('2016-10-20 00:00:00').getTime()){
+            alert("还未开始");
+            return;
+        }
+        alert("开始");
+    });
+});
